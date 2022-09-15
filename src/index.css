@@ -35,11 +35,11 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  /* background: var(--color-bg); */
-  background:black;
+  background: var(--color-bg);
+  /* background:black; */
   color: var(--color-white);
   line-height: 1.7;
-  /* background-image: url("./assets/bg-texture.png"); */
+  background-image: url("./assets/bg-texture.png");
 }
 
 .container {
@@ -61,6 +61,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height:100vh;
 }
 
 section > h2,

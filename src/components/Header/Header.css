@@ -62,7 +62,14 @@ header {
   transform: rotate(90deg);
   font-size: 0.9rem;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .chevron{
+  font-size: 1.5rem;
+} */
 
 /*================MEDIA QUERIES (MEDIUM DEVICES)=====================*/
 @media screen and (max-width: 1024px) {

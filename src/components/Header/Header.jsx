@@ -3,10 +3,11 @@ import CTA from "./CTA";
 import "./Header.css";
 import Pic from "../../assets/me.png";
 import HeaderSocial from "./HeaderSocial";
+// import { HiOutlineChevronDoubleRight } from "react-icons/hi";
 
 const Header = () => {
   return (
-    <header>
+    <header id="/">
       <div className="container header__container">
         <h5>Hello i'm</h5>
         <h1>Christopher Molly</h1>
@@ -19,6 +20,9 @@ const Header = () => {
           <img src={Pic} alt="img" />
         </div>
 
+        {/* <a href="#contact" className="scroll__down">
+          Scroll Down <HiOutlineChevronDoubleRight className="chevron"/>
+        </a> */}
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
