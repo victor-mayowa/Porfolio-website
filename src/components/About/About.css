@@ -23,7 +23,7 @@
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
-  transition: all 300ms ease;
+  transition:var(--transition);
 }
 .about__pic-image:hover {
   transform: rotate(0deg);
@@ -41,6 +41,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  transition:var(--transition)
 }
 
 .about__card:hover {
@@ -73,6 +74,7 @@
   .about__container {
     grid-template-columns: 1fr;
     color: var(--color-white-variant);
+    gap:0%;
   }
 
   .about__pic {
