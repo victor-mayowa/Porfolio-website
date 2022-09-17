@@ -9,14 +9,14 @@ const Data = [
   {
     id: 1,
     image: IMG1,
-    title: "Figma dashboard UI kit for data design web apps",
+    title: "Crypto Currency Dashboard and Financial Visualization",
     github: "https://github.com/vikthour01",
     demo: "/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Figma dashboard UI kit for data design web apps",
+    title: "Chart template and infograhics in Figma",
     github: "https://github.com/vikthour01",
     demo: "/",
   },
@@ -37,14 +37,14 @@ const Data = [
   {
     id: 5,
     image: IMG5,
-    title: "Figma dashboard UI kit for data design web apps",
+    title: "Maintaining tasks and tracking progress",
     github: "https://github.com/vikthour01",
     demo: "/",
   },
   {
     id: 6,
     image: IMG6,
-    title: "Figma dashboard UI kit for data design web apps",
+    title: "Chart template and infographics in Figma",
     github: "https://github.com/vikthour01",
     demo: "/",
   },
