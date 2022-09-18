@@ -36,7 +36,6 @@
   .portfolio__container {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.2em;
-    background-color: aquamarine;
   }
 }
 

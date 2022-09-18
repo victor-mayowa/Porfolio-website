@@ -1,7 +1,7 @@
 import React from "react";
 import "./Testimonial.css";
 import Data from "./Data";
-// import TestimonialItem from "./TestimonialItem";
+import TestimonialItem from "./TestimonialItem";
 import { SwiperSlide } from "swiper/react";
 
 // import Swiper core and required modules
@@ -27,7 +27,7 @@ const Testimonial = () => {
       >
         {Data.map(({ avatar, name, review }) => {
           return (
-            <SwiperSlide className="testimonial">
+            <SwiperSlide key={name} className="testimonial">
             <div className="client__avatar">
               <img src={avatar} alt={avatar} />
             </div>
